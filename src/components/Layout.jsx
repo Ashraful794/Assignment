@@ -1,5 +1,4 @@
 import React from "react";
-import HeroSection from "./HeroSection.Jsx";
 import Header from "./Header";
 import CompanyLogo from "./CompanyLogo";
 import Service from "./Service";
@@ -9,6 +8,8 @@ import Faq from "./Faq";
 import Trial from "./Trial";
 import Footer from "./Footer";
 import Seervice2 from "./Seervice2";
+import HeroSection from "./HeroSection";
+
 
 function Layout() {
   const info = [
