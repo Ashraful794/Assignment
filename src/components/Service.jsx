@@ -1,6 +1,7 @@
 import React from "react";
 import TickLogo from "./CompanyLogos/TickLogo";
-
+import feature1 from  "../feature/feature-1.png";
+import feature2 from  "../feature/feature-2.png";
 function Service({ services, subService2 }) {
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
@@ -38,7 +39,7 @@ function Service({ services, subService2 }) {
           </div>
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="src/feature/feature-1.png"
+            src={feature1}
             alt="dashboard feature image"
           />
         </div>
@@ -47,7 +48,7 @@ function Service({ services, subService2 }) {
         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
           <img
             className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-            src="src/feature/feature-2.png"
+            src={feature2}
             alt="feature image 2"
           />
           <div className="text-gray-500 sm:text-lg dark:text-gray-400">

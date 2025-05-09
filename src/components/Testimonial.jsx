@@ -1,6 +1,6 @@
 import React from "react";
 import Colon from "./CompanyLogos/Colon";
-
+import michael from "../feature/michael-gouch.png"
 function Testimonial() {
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
@@ -17,7 +17,7 @@ function Testimonial() {
           <figcaption className="flex items-center justify-center mt-6 space-x-3">
             <img
               className="w-6 h-6 rounded-full"
-              src="src/feature/michael-gouch.png"
+              src={michael}
               alt="profile picture"
             />
             <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">

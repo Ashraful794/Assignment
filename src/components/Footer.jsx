@@ -4,6 +4,7 @@ import Instragram from "./CompanyLogos/Instragram";
 import Twitter from "./CompanyLogos/Twitter";
 import Github from "./CompanyLogos/Github";
 import Ball from "./CompanyLogos/Ball";
+import logo from "../assets/logo.svg";
 
 function Footer() {
   const socialIcons = [
@@ -66,7 +67,7 @@ function Footer() {
             className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
           >
             <img
-              src="src/assets/logo.svg"
+              src={logo}
               className="h-6 mr-3 sm:h-9"
               alt="Learn with Sumit Logo"
             />

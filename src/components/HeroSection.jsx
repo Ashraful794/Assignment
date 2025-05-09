@@ -1,6 +1,7 @@
 import React from "react";
 import Figma from "./CompanyLogos/Figma";
 import GithubLogo from "./CompanyLogos/GithubLogo";
+import hero from "../feature/hero.png"
 
 function HeroSection() {
   return (
@@ -37,7 +38,7 @@ function HeroSection() {
           </div>
         </div>
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src="src/feature/hero.png" alt="hero image" />
+          <img src={hero} alt="hero image" />
         </div>
       </div>
     </section>

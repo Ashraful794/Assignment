@@ -1,10 +1,10 @@
 import React from "react";
-
+import logo from "../assets/logo.svg"
 function Logo() {
   return (
     <a href="#" className="flex items-center">
       <img
-        src="src/assets/logo.svg"
+        src={logo}
         className="h-6 mr-3 sm:h-9"
         alt="Landwind Logo"
       />
